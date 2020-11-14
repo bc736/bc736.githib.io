@@ -53,40 +53,40 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'Black People', //Will appear in the data.
+					name : 'xx', //Will appear in the data.
 					title : {
-						media : {word : 'Black People'}, //Name of the category presented in the task.
+						media : {word : 'xx}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'cats, dogs'}, 
+						media : {word : 'xxx, xxx'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'cat'}, 
-        			        {word : 'dog'}, 
+					{word : 'xxx'}, 
+        			        {word : 'xxx}, 
         				], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'White people', 
+					name : 'xxx', 
 					title : {
-						media : {word : 'White people'}, 
+						media : {word : 'xxx'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'white, clear'},  
+							media : {word : 'xxx, xxx'},  
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'white'}, 
-        			        {word: 'clear'}, 
+					{word : 'xx'}, 
+        			        {word: 'xx'}, 
         								], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
