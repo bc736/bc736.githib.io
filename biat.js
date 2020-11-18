@@ -59,16 +59,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'Dogs, Horses, Cows, Lions'}, 
+						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'},
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Dogs'}, 
-					{word : 'Horses'}, 
-					{word : 'Lions'}, 
-					{word : 'Cows'}		
+				{word : 'Threatening'}, 
+        			{word : 'Degarading'}, 
+        			{word : 'Humiliating'}, 
+        			{word : 'Intimidating'}, 
+        			{word : 'Abusing'},
+				{word : 'Harassing'}	
 						
 					], 
 					//Stimulus css (style of the stimuli)
@@ -81,16 +83,20 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-						media : {word : 'Pigeons, Swans, Crows, Ravens'}, 
+						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'},
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Pigeons'}, 
-					{word : 'Swans'}, 
-					{word : 'Crows'}, 
-					{word : 'Ravens'}
+				{word : 'Threatening'}, 
+        			{word : 'Degarading'}, 
+        			{word : 'Humiliating'}, 
+        			{word : 'Intimidating'}, 
+        			{word : 'Abusing'},
+				{word : 'Harassing'}
+						
+						
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
