@@ -71,33 +71,84 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					{word : 'Humiliating'}, 
 				        {word : 'Intimidating'}, 
 				        {word : 'Abusing'}, 
-					{word : 'Harassing'}, 					
+					{word : 'Harassing'} 					
         				], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'xxx', 
+					name : 'Bullying', 
 					title : {
 						media : {word : 'xxx'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'xxx, xxx'},  
-							css : {color:'#31b404','font-size':'1em'}, 
+						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing}, 
+						css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'xx'}, 
-        			        {word: 'xx'}, 
-        								], 
+                                        {word : 'Threatening'}, 
+        			        {word : 'Degrading'}, 
+					{word : 'Humiliating'}, 
+				        {word : 'Intimidating'}, 
+				        {word : 'Abusing'}, 
+					{word : 'Harassing'}, 									], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				}
 			],
 							
 			} 
+			    
+			    attribute1 : 
+			{
+				name : 'Like', 
+				title : {
+					media : {word : 'Like'}, 
+					css : {color:'#0000FF','font-size':'1.8em'}, 
+					height : 4,
+					startStimulus : {
+						media : {word : 'Enjoy, Pleasure, Favourite, Like'}, 
+						css : {color:'#0000FF','font-size':'1em'}, 
+						height : 2
+					}
+			    
+			    		    
+				}, 
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Enjoy'}, 
+					{word : 'Pleasure'}, 
+					{word : 'Favourite'}, 
+					{word : 'Like'}
+				], 
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2em'}
+			},	
+			attribute2 : 
+			{
+				name : 'Like', 
+				title : {
+					media : {word : 'Like'}, 
+					css : {color:'#0000FF','font-size':'1.8em'}, 
+					height : 4,
+					startStimulus : {
+						media : {word : 'Enjoy, Pleasure,Favourite, Like'}, 
+						css : {color:'#0000FF','font-size':'1em'}, 
+						height : 2
+					}
+				}, 
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Enjoy'}, 
+					{word : 'Pleasure'}, 
+					{word :  Favourite'}, 
+					{word : 'Like'}
+				], 
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2em'} 
+			      
+			    
 	});
 });
 
