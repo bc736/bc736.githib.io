@@ -4,7 +4,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 	
 	return iatExtension({
 		
-		nCategoryAttributeBlocks : 1, 
+		nCategoryAttributeBlocks : 2, 
 		
 				
 			categories : [  //As many categories you need.
@@ -33,32 +33,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
-				{
-					name : 'Bullying', 
-					title : {
-						media : {word : 'Bullying'}, 
-						css : {color:'#31b404','font-size':'1.8em'}, 
-						height : 4,
-						startStimulus : {
-						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'},
-							css : {color:'#31b404','font-size':'1em'}, 
-							height : 13
-						}
-					}, 
-					stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word : 'Threatening'}, 
-        			{word : 'Degarading'}, 
-        			{word : 'Humiliating'}, 
-        			{word : 'Intimidating'}, 
-        			{word : 'Abusing'},
-				{word : 'Harassing'}
-						
-						
-					], 
-					//Stimulus css
-					stimulusCss : {color:'#31b404','font-size':'2em'}
-				}
-			],
+						],
 		
 					base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
