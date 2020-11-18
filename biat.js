@@ -3,6 +3,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 
 	
 	return iatExtension({
+		
+		nCategoryAttributeBlocks : 1, 
 		practiceCategory1 : 
 			{
 				name : 'Mammals', //Will appear in the data.
