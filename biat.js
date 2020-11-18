@@ -55,7 +55,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 				{
 					name : 'Bullying', //Will appear in the data.
 					title : {
-						media : {word : 'xx}, //Name of the category presented in the task.
+						media : {word : 'Bullying'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
@@ -79,7 +79,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 				{
 					name : 'Bullying', 
 					title : {
-						media : {word : 'xxx'}, 
+						media : {word : 'Bullying}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
@@ -94,7 +94,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					{word : 'Humiliating'}, 
 				        {word : 'Intimidating'}, 
 				        {word : 'Abusing'}, 
-					{word : 'Harassing'}, 									], 
+					{word : 'Harassing'} 									], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				}
