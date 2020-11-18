@@ -3,9 +3,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 
 	
 	return iatExtension({
-		
-		nCategoryAttributeBlocks : 2,
-		
 		practiceCategory1 : 
 			{
 				name : 'Mammals', //Will appear in the data.
@@ -60,95 +57,50 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'}, 
+						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'},
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Threatening'}, 
-        			        {word : 'Degrading'}, 
-					{word : 'Humiliating'}, 
-				        {word : 'Intimidating'}, 
-				        {word : 'Abusing'}, 
-					{word : 'Harassing'} 					
-        				], 
+				{word : 'Threatening'},
+        			{word : 'Threatening'}, 
+        			{word : 'Degarading'}, 
+        			{word : 'Humiliating'}, 
+        			{word : 'Intimidating'}, 
+        			{word : 'Abusing'},
+				{word : 'Harassing'}
+					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
 					name : 'Bullying', 
 					title : {
-						media : {word : 'Bullying}, 
+						media : {word : 'Bullying'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'}, 
-						css : {color:'#31b404','font-size':'1em'}, 
+							media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'},
+							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-                                        {word : 'Threatening'}, 
-        			        {word : 'Degrading'}, 
-					{word : 'Humiliating'}, 
-				        {word : 'Intimidating'}, 
-				        {word : 'Abusing'}, 
-					{word : 'Harassing'} 									], 
+				{word : 'Threatening'},
+        			{word : 'Threatening'}, 
+        			{word : 'Degarading'}, 
+        			{word : 'Humiliating'}, 
+        			{word : 'Intimidating'}, 
+        			{word : 'Abusing'},
+				{word : 'Harassing'}	
+					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				}
 			],
 							
-			} 
-			    
-			    attribute1 : 
-			{
-				name : 'Like', 
-				title : {
-					media : {word : 'Like'}, 
-					css : {color:'#0000FF','font-size':'1.8em'}, 
-					height : 4,
-					startStimulus : {
-						media : {word : 'Enjoy, Pleasure, Favourite, Like'}, 
-						css : {color:'#0000FF','font-size':'1em'}, 
-						height : 2
-					}
-			    
-			    		    
-				}, 
-				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Enjoy'}, 
-					{word : 'Pleasure'}, 
-					{word : 'Favourite'}, 
-					{word : 'Like'}
-				], 
-				//Stimulus css
-				stimulusCss : {color:'#0000FF','font-size':'2em'}
-			},	
-			attribute2 : 
-			{
-				name : 'Like', 
-				title : {
-					media : {word : 'Like'}, 
-					css : {color:'#0000FF','font-size':'1.8em'}, 
-					height : 4,
-					startStimulus : {
-						media : {word : 'Enjoy, Pleasure,Favourite, Like'}, 
-						css : {color:'#0000FF','font-size':'1em'}, 
-						height : 2
-					}
-				}, 
-				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Enjoy'}, 
-					{word : 'Pleasure'}, 
-					{word :  Favourite'}, 
-					{word : 'Like'}
-				], 
-				//Stimulus css
-				stimulusCss : {color:'#0000FF','font-size':'2em'} 
-			    },
-			      			    
+				} 
 	});
 });
 
