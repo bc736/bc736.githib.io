@@ -53,21 +53,25 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'xx', //Will appear in the data.
+					name : 'Bullying', //Will appear in the data.
 					title : {
 						media : {word : 'xx}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'xxx, xxx'}, 
+						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'xxx'}, 
-        			        {word : 'xxx}, 
+					{word : 'Threatening'}, 
+        			        {word : 'Degrading'}, 
+					{word : 'Humiliating'}, 
+				        {word : 'Intimidating'}, 
+				        {word : 'Abusing'}, 
+					{word : 'Harassing'}, 					
         				], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
