@@ -75,26 +75,21 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'Bullying', 
+					name : 'Supportive', 
 					title : {
-						media : {word : 'Bullying'}, 
+						media : {word : 'Supportive'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'},
+							media : {word : 'Supportive, Helpful'},
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word : 'Threatening'},
-        			{word : 'Threatening'}, 
-        			{word : 'Degarading'}, 
-        			{word : 'Humiliating'}, 
-        			{word : 'Intimidating'}, 
-        			{word : 'Abusing'},
-				{word : 'Harassing'}	
-					], 
+				{word : 'Supportive'},
+        			{word : 'Helpful'}, 
+        				], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				}
