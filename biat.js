@@ -60,7 +60,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing}, 
+						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
@@ -83,7 +83,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing}, 
+						media : {word : 'Threatening, Degrading, Humiliating, Intimidating, Abusing, Harassing'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
