@@ -81,13 +81,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'Supportive, Helpful'},
+							media : {word : 'Supportive, Helpful, dog'},
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
 				{word : 'Supportive'},
+				{word : 'dog'}, 
         			{word : 'Helpful'} 
         				], 
 					//Stimulus css
