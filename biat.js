@@ -26,7 +26,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 				//Stimulus css (style of the stimuli)
 				stimulusCss : {color:'#31b404','font-size':'2em'}
 			},	
-			practiceCategory2 : 
+			practiceCategory2  : 
 			{
 				name : 'Birds', 
 				title : {
