@@ -60,18 +60,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {image : 'blacks.jpg'}, 
+							media : {word : 'Degrading, Humiliating, Intimidating, Abusing, Harassing, Threatening'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'black1.jpg'}, 
-        			{image : 'black2.jpg'}, 
-        			{image : 'black3.jpg'}, 
-        			{image : 'black4.jpg'}, 
-        			{image : 'black5.jpg'}, 
-        			{image : 'black6.jpg'}
+					{word : 'Degrading'},
+					{word : 'Intimidating'},
+					{word : 'Humiliating'},
+					{word : 'Abusing'},
+					{word : 'Harassing'},
+					{word : 'Threatening'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
