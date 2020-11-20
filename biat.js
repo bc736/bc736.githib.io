@@ -103,11 +103,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			],
 			base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
-				
-			} 
-		
-		
-		attribute1 : 
+			}, 
+			attribute1 : 
 			{
 			name : 'Unpleasant', //Attribute label
 			title : {
@@ -126,8 +123,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
-	
-		attribute2 : 
+			attribute2 : 
 			{
 			name : 'Pleasant', //Attribute label
 			title : {
