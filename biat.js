@@ -83,18 +83,19 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {image : 'whites.jpg'},  
+							media : {word : 'Supporting, Encouraging, Valuing, Respecting, Appreciating, Inclusive'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
+						
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'yf1.jpg'}, 
-        			{image : 'yf4.jpg'}, 
-        			{image : 'yf5.jpg'}, 
-        			{image : 'ym2.jpg'}, 
-        			{image : 'ym3.jpg'}, 
-        			{image : 'ym5.jpg'}
+					{word : 'Supporting'},
+					{word : 'Encouraging'},
+					{word : 'Valuing'},
+					{word : 'Respecting'},
+					{word : 'Appreciating'},
+					{word : 'Inclusive'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
