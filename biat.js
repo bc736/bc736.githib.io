@@ -47,7 +47,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					{word : 'Evil'}
 				], 
 				//Stimulus css
-				stimulusCss : {color:'#0000FF','font-size':'2em'}, 
+				stimulusCss : {color:'#0000FF','font-size':'2em'} 
+				},
 				categories : [  //As many categories you need.
 				{
 					name : 'Bullying', //Will appear in the data.
