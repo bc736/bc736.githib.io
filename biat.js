@@ -7,44 +7,44 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		nCategoryAttributeBlocks : 1, 
 		attribute1 : 
 			{
-				name : 'Giood', 
+				name : 'Like', 
 				title : {
-					media : {word : 'Good'}, 
+					media : {word : 'Like'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Joy, Love, Happy, Good'}, 
+						media : {word : 'Like, Enjoy, Pleasure, Favourite}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Joy'}, 
-					{word : 'Love'}, 
-					{word : 'Happy'}, 
-					{word : 'Good'}
+					{word : 'Like'}, 
+					{word : 'Enjoy'}, 
+					{word : 'Pleasure'}, 
+					{word : 'Favourite'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
-				name : 'Unpleasant', 
+				name : 'Dislike', 
 				title : {
-					media : {word : 'Unpleasant'}, 
+					media : {word : 'Dislike'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
+						media : {word : 'Dislike, Disgust, Horrible, Worst'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Dislike'}, 
+					{word : 'Disgust'}, 
 					{word : 'Horrible'}, 
-					{word : 'Nasty'}, 
-					{word : 'Bad'}, 
-					{word : 'Evil'}
+					{word : 'Worst'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
