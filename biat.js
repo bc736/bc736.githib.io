@@ -5,8 +5,50 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 	return iatExtension({
 				
 		nCategoryAttributeBlocks : 1, 
-		
-		categories : [  //As many categories you need.
+		attribute1 : 
+			{
+				name : 'Giood', 
+				title : {
+					media : {word : 'Good'}, 
+					css : {color:'#0000FF','font-size':'1.8em'}, 
+					height : 4,
+					startStimulus : {
+						media : {word : 'Joy, Love, Happy, Good'}, 
+						css : {color:'#0000FF','font-size':'1em'}, 
+						height : 2
+					}
+				}, 
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Joy'}, 
+					{word : 'Love'}, 
+					{word : 'Happy'}, 
+					{word : 'Good'}
+				], 
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2em'}
+			},	
+			attribute2 : 
+			{
+				name : 'Unpleasant', 
+				title : {
+					media : {word : 'Unpleasant'}, 
+					css : {color:'#0000FF','font-size':'1.8em'}, 
+					height : 4,
+					startStimulus : {
+						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
+						css : {color:'#0000FF','font-size':'1em'}, 
+						height : 2
+					}
+				}, 
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Horrible'}, 
+					{word : 'Nasty'}, 
+					{word : 'Bad'}, 
+					{word : 'Evil'}
+				], 
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2em'}, 
+				categories : [  //As many categories you need.
 				{
 					name : 'Bullying', //Will appear in the data.
 					title : {
