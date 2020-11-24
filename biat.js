@@ -13,7 +13,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Like, Enjoy, Pleasure, Favourite}, 
+						media : {word : 'Like, Enjoy, Pleasure, Favourite'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
