@@ -3,92 +3,97 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 
 	
 	return iatExtension({
-				
-		nCategoryAttributeBlocks : 1, 
+		
+		nCategoryAttributeBlocks : 2, 
 		attribute1 : 
 			{
-				name : 'Good', 
+				name : 'Like', 
 				title : {
-					media : {word : 'Good'}, 
+					media : {word : 'Like'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Joy, Happy, Love, Good'}, 
+						media : {word : 'Like, Enjoy, Pleasure, Favourite'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Joy'}, 
-					{word : 'Happy'}, 
-					{word : 'Love'}, 
-					{word : 'Good'}
+					{word : 'Like'}, 
+					{word : 'Enjoy'}, 
+					{word : 'Pleasure'}, 
+					{word : 'Favourite'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
-				name : 'Bad', 
+				name : 'Dislike', 
 				title : {
-					media : {word : 'Bad'}, 
+					media : {word : 'Dislike'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Horrible, Nasty, Terrible, Bad'}, 
+						media : {word : 'Dislike, Disgust, Horrible, Worst'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Dislike'}, 
+					{word : 'Disgust'}, 
 					{word : 'Horrible'}, 
-					{word : 'Nasty'}, 
-					{word : 'Terrible'}, 
-					{word : 'Bad'}
+					{word : 'Worst'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
 				},
 				categories : [  //As many categories you need.
 				{
-					name : 'Mental Ilness', //Will appear in the data.
+					name : 'Bullying', //Will appear in the data.
 					title : {
-						media : {word : 'Mental Ilness'}, //Name of the category presented in the task.
+						media : {word : 'Bullying'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-							media : {word : 'Mental illness, Mentally ill, Mentally disturbed', Mentally unbalanced'}, 
+							media : {word : 'Degrading, Humiliating, Intimidating, Abusing, Harassing, Threatening'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Mental illness'},
-					{word : 'Mentally ill'},
-					{word : 'Mentally disturbed'},
-					{word : 'Mentally unbalanced'}				
+					{word : 'Degrading'},
+					{word : 'Intimidating'},
+					{word : 'Humiliating'},
+					{word : 'Abusing'},
+					{word : 'Harassing'},
+					{word : 'Threatening'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'Physical Disability', 
+					name : 'Supportive', 
 					title : {
-						media : {word : 'Physical Disability'}, 
+						media : {word : 'Supportive'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'Physically impaired, Physical disability, Physically disabled, Physically handicapped'}, 
+							media : {word : 'Supporting, Encouraging, Valuing, Respecting, Appreciating, Inclusive'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
-							height : 13						
+							height : 13
+						
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Physically handicapped'},
-					{word : 'Physically disabled'},
-					{word : 'Physically impaired'},
-					{word : 'Physical disability'}
+					{word : 'Supporting'},
+					{word : 'Encouraging'},
+					{word : 'Valuing'},
+					{word : 'Respecting'},
+					{word : 'Appreciating'},
+					{word : 'Inclusive'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -101,3 +106,4 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 	});
 });
+
