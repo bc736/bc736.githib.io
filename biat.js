@@ -3,97 +3,92 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 
 	
 	return iatExtension({
-		
-		nCategoryAttributeBlocks : 2, 
+				
+		nCategoryAttributeBlocks : 1, 
 		attribute1 : 
 			{
-				name : 'Like', 
+				name : 'Good', 
 				title : {
-					media : {word : 'Like'}, 
+					media : {word : 'Good'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Like, Enjoy, Pleasure, Favourite'}, 
+						media : {word : 'Joy, Happy, Love, Good'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Like'}, 
-					{word : 'Enjoy'}, 
-					{word : 'Pleasure'}, 
-					{word : 'Favourite'}
+					{word : 'Joy'}, 
+					{word : 'Happy'}, 
+					{word : 'Love'}, 
+					{word : 'Good'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
-				name : 'Dislike', 
+				name : 'Bad', 
 				title : {
-					media : {word : 'Dislike'}, 
+					media : {word : 'Bad'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Dislike, Disgust, Horrible, Worst'}, 
+						media : {word : 'Horrible, Nasty, Terrible, Bad'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Dislike'}, 
-					{word : 'Disgust'}, 
 					{word : 'Horrible'}, 
-					{word : 'Worst'}
+					{word : 'Nasty'}, 
+					{word : 'Terrible'}, 
+					{word : 'Bad'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
 				},
 				categories : [  //As many categories you need.
 				{
-					name : 'Bullying', //Will appear in the data.
+					name : 'Mental Ilness', //Will appear in the data.
 					title : {
-						media : {word : 'Bullying'}, //Name of the category presented in the task.
+						media : {word : 'Mental Ilness'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-							media : {word : 'Degrading, Humiliating, Intimidating, Abusing, Harassing, Threatening'}, 
+							media : {word : 'Mental illness, Mentally ill, Mentally disturbed', Mentally unbalanced'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Degrading'},
-					{word : 'Intimidating'},
-					{word : 'Humiliating'},
-					{word : 'Abusing'},
-					{word : 'Harassing'},
-					{word : 'Threatening'}
+					{word : 'Mental illness'},
+					{word : 'Mentally ill'},
+					{word : 'Mentally disturbed'},
+					{word : 'Mentally unbalanced'}				
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'Supportive', 
+					name : 'Physical Disability', 
 					title : {
-						media : {word : 'Supportive'}, 
+						media : {word : 'Physical Disability'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'Supporting, Encouraging, Valuing, Respecting, Appreciating, Inclusive'}, 
+							media : {word : 'Physically impaired, Physical disability, Physically disabled, Physically handicapped'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
-							height : 13
-						
+							height : 13						
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Supporting'},
-					{word : 'Encouraging'},
-					{word : 'Valuing'},
-					{word : 'Respecting'},
-					{word : 'Appreciating'},
-					{word : 'Inclusive'}
+					{word : 'Physically handicapped'},
+					{word : 'Physically disabled'},
+					{word : 'Physically impaired'},
+					{word : 'Physical disability'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
