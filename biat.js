@@ -7,7 +7,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		nCategoryAttributeBlocks : 2, 
 		attribute1 : 
 			{
-				name : 'Like', 
+				name : 'Good', 
 				title : {
 					media : {word : 'Like'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
