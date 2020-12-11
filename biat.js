@@ -9,7 +9,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			{
 				name : 'Good', 
 				title : {
-					media : {word : 'Like'}, 
+					media : {word : 'Good'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
