@@ -1,12 +1,11 @@
 define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qualtrics/qbiat6.js'], function(APIConstructor, iatExtension){
  var API = new APIConstructor();
 
-	istouch: true, //Set whether the task is on a touch device.
-	
 	return iatExtension({
 		
 		nCategoryAttributeBlocks : 2, 
 		
+		istouch: false, //Set whether the task is on a touch device.
 		attribute1 : 
 			{
 				name : 'Like', 
