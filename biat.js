@@ -1,7 +1,6 @@
-define(['pipAPI', 'https://elinorbengayev.github.io/biat.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://bc736.github.io/biat/qbiat.js'], function(APIConstructor, iatExtension){
  var API = new APIConstructor();
-
-	
+		
 	return iatExtension({
 		
 		nCategoryAttributeBlocks : 2, 
