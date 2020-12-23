@@ -5,7 +5,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 		nCategoryAttributeBlocks : 2, 
 		
-		istouch: true, //Set whether the task is on a touch device.
+		isTouch: true, //Set whether the task is on a touch device.
 		attribute1 : 
 			{
 				name : 'Like', 
