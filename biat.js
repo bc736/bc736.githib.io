@@ -3,7 +3,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 	return iatExtension({
 		
-		nCategoryAttributeBlocks : 2, 
+		nCategoryAttributeBlocks : 1, 
 		
 		isTouch: true, //Set whether the task is on a touch device.
 		attribute1 : 
@@ -60,16 +60,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-							media : {word : 'Mental illness, Mentally ill, Mentally disturbed, Mentally unbalanced'}, 
+						        media : {word : 'Degrading, Humiliating, Intimidating, Abusing, Harassing, Threatening'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 13
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Mental illness'},
-					{word : 'Mentally ill'},
-					{word : 'Mentally disturbed'},
-					{word : 'Mentally unbalanced'}	
+					{word : 'Degrading'},
+					{word : 'Intimidating'},
+					{word : 'Humiliating'},
+					{word : 'Abusing'},
+					{word : 'Harassing'},
+					{word : 'Threatening'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
