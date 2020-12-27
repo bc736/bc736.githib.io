@@ -6,7 +6,20 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		nCategoryAttributeBlocks : 1, 
 		
 		isTouch: true, //Set whether the task is on a touch device.
-		attribute1 : 
+		
+		instTemplateTouch: '<div><p align="center" ' +
+				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
+				'<p align="left" style="margin-left:5px"> ' +
+				'Put a right finger on the <b>right</b> green area shown for items that belong to the category ' + 
+				'<font color="#0000FF">focalAtt</font>, ' + 
+				'and for items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
+				'Put a left finger on the <b>left</b> green area shown for items that do not belong to these categories.<br/>' + 
+				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
+				'Press the other side to continue.<br/>' + 
+				'<p align="center">Touch the <b>lower </b> green area to start.</font></p></div>', 	
+				leftKeyTextTouch : 'Left for all else', 
+				rightKeyTextTouch : 'Right if item belongs', 
+				attribute1 : 
 			{
 				name : 'Like', 
 				title : {
