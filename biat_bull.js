@@ -4,9 +4,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 	return iatExtension({
 		
 		nCategoryAttributeBlocks : 1, 
-		
-		isTouch: false, //Set whether the task is on a touch device.
-		attribute1 : 
+		remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' + 
+			'Go fast. If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
+			'Press the other key to continue.<p/>',
+	        attribute1 : 
 			{
 				name : 'Like', 
 				title : {
