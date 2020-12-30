@@ -14,7 +14,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 				'<font color="#0000FF">focalAtt</font>, ' + 
 				'and for items that belong to the category <font color="#31b404">focalCat</font>.<br/>' + 
 				'Put a left finger on the <b>E</b> key for items that do not belong to these categories.<br/><br/>' + 
-				'Go fast. If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
+				'Go FAST. If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
 		attribute1 : 
