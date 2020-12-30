@@ -5,12 +5,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 		nCategoryAttributeBlocks : 2, 
 		
-		practiceBlock : false, 
-		
-		finalTouchText : 'Touch the bottom green area to continue',
-		
 		isTouch: true, //Set whether the task is on a touch device.
 		
+		practiceBlock : false, 
+				
+		minRT : 0, //Not below this latency
+		maxRT : 10000, //Not above this
+		
+		finalTouchText : 'Touch the bottom green area to continue',
+				
 		instTemplateTouch: '<div><p align="center" ' +
 				'<br/><font color="#000000"><u>Part blockNum of nBlocks </u><br/></p>' + 
 				'<p align="left" style="margin-left:5px"> ' +
