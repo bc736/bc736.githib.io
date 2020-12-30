@@ -9,7 +9,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		maxRT : 10000, //Not above this
 		
 		API.save(scoreObj);
+		piCurrent.batScoreObj = scoreObj;
 		piCurrent.feedback = scoreObj;
+		
 		practiceBlock : false, 
 		
 		finalText : 'Press space to continue', 
@@ -125,5 +127,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			
 		
 	});
+	
 });
 
