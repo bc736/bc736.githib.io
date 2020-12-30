@@ -3,7 +3,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 	return iatExtension({
 		
-		nCategoryAttributeBlocks : 1, 
+		nCategoryAttributeBlocks : 2, 
+		
+		practiceBlock : false, 
 		
 		nMiniBlocks : 0, //Set to 1 if don't need mini blocks. 0 will break the task.
 		
