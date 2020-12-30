@@ -7,6 +7,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 		practiceBlock : false, 
 		
+		finalTouchText : 'Touch the bottom green area to continue',
+		
 		isTouch: true, //Set whether the task is on a touch device.
 		
 		instTemplateTouch: '<div><p align="center" ' +
