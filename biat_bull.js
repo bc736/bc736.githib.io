@@ -3,7 +3,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 	return iatExtension({
 		
-		nCategoryAttributeBlocks : 2, 
+		nCategoryAttributeBlocks : 1, 
+		
+		minRT : 0, //Not below this latency
 		
 		practiceBlock : false, 
 		
