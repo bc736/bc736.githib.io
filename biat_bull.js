@@ -1,5 +1,6 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qualtrics/qbiat6.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/biat6.js'], function(APIConstructor, iatExtension){
  var API = new APIConstructor();
+	
 		
 	return iatExtension({
 		
@@ -8,8 +9,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		minRT : 0, //Not below this latency
 		maxRT : 10000, //Not above this
 		
-		API.save(scoreObj);
-		piCurrent.batScoreObj = scoreObj;
 		piCurrent.feedback = scoreObj;
 		
 		practiceBlock : false, 
