@@ -9,7 +9,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 				
 		practiceBlock : false, 
 		
-		finalText : 'Press space to continue', 
+		finalText : 'This task is now completed. Press space to continue', 
 				
 		instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
