@@ -6,9 +6,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/biat
 		
 		nCategoryAttributeBlocks : 1, 
 		
-		minRT : 0, //Not below this latency
-		maxRT : 10000, //Not above this
-		
 		
 		practiceBlock : false, 
 		
