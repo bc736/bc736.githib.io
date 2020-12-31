@@ -4,10 +4,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 	return iatExtension({
 				
-		var headers = ['fb'];
-                                            
-                content.push([piCurrent.feedback //'fb'   ]);
-						
+			
 		nCategoryAttributeBlocks : 1, 
 				
 		practiceBlock : false, 
