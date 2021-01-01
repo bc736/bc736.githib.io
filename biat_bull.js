@@ -119,46 +119,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
 			}, 
-		
-		API.addSettings('hooks',{
-			endTask: function(){
-				//Compute and send the score
 				
-				var scoreObj = {};
-
-				var iCatEnd;
-				for (iCatEnd = 0; iCatEnd < cats.length; iCatEnd++)
-				{
-					var tScoreObj = computeSingleCatFB(iCatEnd);
-					scoreObj[cats[iCatEnd].name + '_FB'] = tScoreObj.FBMsg;
-					scoreObj[cats[iCatEnd].name + '_score'] = tScoreObj.DScore;
-					var iOtherCatEnd;
-					for (iOtherCatEnd = 0; iOtherCatEnd < iCatEnd; iOtherCatEnd++) //All the comparisons.
-					{
-						var prfObj = {};
-						if (tScoreObj.problem)
-						{//If couldn't compute a score for this category, then can't compute preference
-							prfObj = {fb : tScoreObj.FBMsg, score : -9};
-						}
-						else
-						{//Compute preference
-							prfObj = getPreferenceMessage({
-									score1 : scoreObj[cats[iCatEnd].name + '_score'], 
-									score2 : scoreObj[cats[iOtherCatEnd].name + '_score'], 
-									name1 : cats[iCatEnd].name, 
-									name2 : cats[iOtherCatEnd].name});
-						}
-						scoreObj[cats[iOtherCatEnd].name + '-versus-' + cats[iCatEnd].name + '_FB'] = prfObj.fb;
-						scoreObj[cats[iOtherCatEnd].name + '-versus-' + cats[iCatEnd].name + '_score'] = prfObj.score;
-					}
-				}
-				scoreObj.feedback = scoreObj[cats[0].name + '-versus-' + cats[1].name+ '_FB'];
-				
-				//API.save(scoreObj);
-				//piCurrent.batScoreObj = scoreObj;
-				piCurrent.feedback = scoreObj;
-				window.minnoJS.onEnd();	
-		
 	});
 	
 });
