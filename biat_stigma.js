@@ -82,7 +82,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : ''},
 					{word : 'Mental illness'},
 					{word : 'Mentally disturbed'},
 					{word : 'Mentally ill'},
