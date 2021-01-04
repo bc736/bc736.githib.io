@@ -106,7 +106,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					{word : 'Physical disability'},
 					{word : 'Physically disabled'},
 					{word : 'Physically impaired'},
-					{word : 'physically handicapped'}
+					{word : 'Physically handicapped'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
