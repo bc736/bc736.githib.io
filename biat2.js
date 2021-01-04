@@ -90,25 +90,23 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'Supportive', 
+					name : 'Physical disability', 
 					title : {
-						media : {word : 'Supportive'}, 
+						media : {word : 'Physical disability'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'Supporting, Encouraging, Valuing, Respecting, Appreciating, Inclusive'}, 
-							css : {color:'#31b404','font-size':'1em'}, 
-							height : 13
+							media : {word : 'Physical disability, Physically disabled, Physically impaired, Physically handicapped'}, 
+      		                          css : {color:'#31b404','font-size':'1em'}, 
+					  height : 13
 						
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Supporting'},
-					{word : 'Encouraging'},
-					{word : 'Valuing'},
-					{word : 'Respecting'},
-					{word : 'Appreciating'},
-					{word : 'Inclusive'}
+					{word : 'Physical disability'},
+					{word : 'Physically disabled'},
+					{word : 'Physically impaired'},
+					{word : 'physically handicapped'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
