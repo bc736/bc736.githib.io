@@ -84,9 +84,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					{word : 'Degrading'},
 					{word : 'Intimidating'},
 					{word : 'Humiliating'},
-					{word : 'Abusing'},
-					{word : 'Harassing'},
-					{word : 'Threatening'}
+					{word : 'Abusing'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
