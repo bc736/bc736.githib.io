@@ -85,7 +85,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					{word : 'Mental illness'},
 					{word : 'Mentally disturbed'},
 					{word : 'Mentally ill'},
-					{word : 'Mentall unbalanced'},
+					{word : 'Mentall unbalanced'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -108,7 +108,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 					{word : 'Physically impaired'},
 					{word : 'Physical disability'},
 					{word : 'Physically disabled'},
-					{word : 'Physically handicapped'},
+					{word : 'Physically handicapped'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
