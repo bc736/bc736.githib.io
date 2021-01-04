@@ -9,6 +9,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 				
 		practiceBlock : false, 
 		
+		isTouch: true, //Set whether the task is on a touch device.
+		
 		finalText : 'This task is now completed. Press space to continue', 
 				
 		instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
