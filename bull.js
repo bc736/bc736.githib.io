@@ -5,7 +5,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 	return iatExtension({
 				
 			
-		nCategoryAttributeBlocks : 1, 
+		nCategoryAttributeBlocks : 2, 
 				
 		practiceBlock : false, 
 		
