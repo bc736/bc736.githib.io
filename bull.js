@@ -6,6 +6,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 				
 			
 		nCategoryAttributeBlocks : 2, 
+		
+		maxRT : 10000
 				
 		practiceBlock : false, 
 		
