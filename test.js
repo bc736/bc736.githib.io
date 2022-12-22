@@ -63,7 +63,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			},
 			  
 			  trialsByBlock : 
-			  [
+			 
 				{
 					instHTML : '', //Empty means we will create the inst from the instTemplate variable further below. 
 					block : 1, //The block variable is not used later, but could help the user. 
@@ -104,12 +104,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 					sharedAttTrials : 1, 
 					categoryTrials : 1
 				}
-			],
-			  
-			  
-
   base_url : {//Where are your images at?
     image : 'https://baranan.github.io/minno-tasks/images/'
-  }}
+  }};
   );
   });
