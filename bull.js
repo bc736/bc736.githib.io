@@ -11,6 +11,20 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
 		finalText : 'This task is now completed. Press space to continue', 
 				
+		//the Scorer that compute the user feedback
+			scorer.addSettings('compute',{
+				ErrorVar:'score',
+				condVar:"condition",
+				cond1VarValues: cond1VarValues, //scoring condition 1
+				cond2VarValues: cond2VarValues, //scoring condition 2
+				fastRT : 150, //Below this reaction time, the latency is considered extremely fast.
+				maxFastTrialsRate : 0.1, //Above this % of extremely fast responses within a condition, the participant is considered too fast.
+				minRT : 400, //Not below this latency
+				maxRT : 10000, //Not above this
+				errorLatency : {use:"latency", useForSTD:true},
+				postSettings : {score: "score", msg:"feeedback", url:"/implicit/scorer"}
+			});
+		
 		instTemplate: '<div><p align="center" style="font-size:20px; font-family:arial"><br/>' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
