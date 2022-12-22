@@ -16,7 +16,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 					instHTML : '', 
 					block : 2, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
+					singleAttTrials : 5, 
 					sharedAttTrials : 7, 
 					categoryTrials : 7
 				}, 
@@ -24,7 +24,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 					instHTML : '', 
 					block : 3, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
+					singleAttTrials : 5, 
 					sharedAttTrials : 7, 
 					categoryTrials : 7
 				}, 
@@ -32,7 +32,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 					instHTML : '', 
 					block : 4, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
+					singleAttTrials : 5, 
 					sharedAttTrials : 7, 
 					categoryTrials : 7
 				}, 
@@ -40,7 +40,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 					instHTML : '', 
 					block : 5, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
+					singleAttTrials : 5, 
 					sharedAttTrials : 7, 
 					categoryTrials : 7
 				}
