@@ -16,33 +16,33 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 					instHTML : '', 
 					block : 2, 
 					miniBlocks : 2, 
-					singleAttTrials : 5, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
+					categoryTrials : 1
 				}, 
 				{ 
 					instHTML : '', 
 					block : 3, 
 					miniBlocks : 2, 
-					singleAttTrials : 5, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
+					categoryTrials : 1
 				}, 
 				{ 
 					instHTML : '', 
 					block : 4, 
 					miniBlocks : 2, 
-					singleAttTrials : 5, 
-					sharedAttTrials : 7, 
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
 					categoryTrials : 7
 				}, 
 				{ 
 					instHTML : '', 
 					block : 5, 
 					miniBlocks : 2, 
-					singleAttTrials : 5, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
+					categoryTrials : 1
 				}
 			],
 			  
