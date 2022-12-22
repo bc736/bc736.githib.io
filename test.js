@@ -3,50 +3,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 	var API = new APIConstructor();
 		  return stiatExtension({
 			  
-			  [
-				{
-					instHTML : '', //Empty means we will create the inst from the instTemplate variable further below. 
-					block : 1, //The block variable is not used later, but could help the user. 
-					//In each block, we can include a number of mini-blocks, to reduce repetition of same group/response.
-					miniBlocks : 1, //Set to 1 if don't need mini blocks. 0 will break the task.
-			
-			
-				}, 
-				{ 
-					instHTML : '', 
-					block : 2, 
-					miniBlocks : 2, 
-					singleAttTrials : 1, 
-					sharedAttTrials : 1, 
-					categoryTrials : 1
-				}, 
-				{ 
-					instHTML : '', 
-					block : 3, 
-					miniBlocks : 2, 
-					singleAttTrials : 1, 
-					sharedAttTrials : 1, 
-					categoryTrials : 1
-				}, 
-				{ 
-					instHTML : '', 
-					block : 4, 
-					miniBlocks : 2, 
-					singleAttTrials : 1, 
-					sharedAttTrials : 1, 
-					categoryTrials : 7
-				}, 
-				{ 
-					instHTML : '', 
-					block : 5, 
-					miniBlocks : 2, 
-					singleAttTrials : 1, 
-					sharedAttTrials : 1, 
-					categoryTrials : 1
-				}
-			],
-			  
-			  
 			  
 		  category : { 
 		    name : 'Black people', //Will appear in the data.
@@ -105,6 +61,52 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
+			  
+			  
+			  [
+				{
+					instHTML : '', //Empty means we will create the inst from the instTemplate variable further below. 
+					block : 1, //The block variable is not used later, but could help the user. 
+					//In each block, we can include a number of mini-blocks, to reduce repetition of same group/response.
+					miniBlocks : 1, //Set to 1 if don't need mini blocks. 0 will break the task.
+			
+			
+				}, 
+				{ 
+					instHTML : '', 
+					block : 2, 
+					miniBlocks : 2, 
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
+					categoryTrials : 1
+				}, 
+				{ 
+					instHTML : '', 
+					block : 3, 
+					miniBlocks : 2, 
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
+					categoryTrials : 1
+				}, 
+				{ 
+					instHTML : '', 
+					block : 4, 
+					miniBlocks : 2, 
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
+					categoryTrials : 7
+				}, 
+				{ 
+					instHTML : '', 
+					block : 5, 
+					miniBlocks : 2, 
+					singleAttTrials : 1, 
+					sharedAttTrials : 1, 
+					categoryTrials : 1
+				}
+			],
+			  
+			  
 
   base_url : {//Where are your images at?
     image : 'https://baranan.github.io/minno-tasks/images/'
