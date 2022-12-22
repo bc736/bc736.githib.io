@@ -1,4 +1,4 @@
-efine(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
+define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
 
 	function stiatExtension(options)
 	{
@@ -91,33 +91,33 @@ efine(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
 					instHTML : '', 
 					block : 2, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 5, 
+					sharedAttTrials : 5, 
+					categoryTrials : 5
 				}, 
 				{ 
 					instHTML : '', 
 					block : 3, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 5, 
+					sharedAttTrials : 5, 
+					categoryTrials : 5
 				}, 
 				{ 
 					instHTML : '', 
 					block : 4, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 5, 
+					sharedAttTrials : 5, 
+					categoryTrials : 5
 				}, 
 				{ 
 					instHTML : '', 
 					block : 5, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 5, 
+					sharedAttTrials : 5, 
+					categoryTrials : 5
 				}
 			],
 			//All blocks show attribute1 on the left and attribute2 on the right. 
