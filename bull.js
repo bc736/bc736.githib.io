@@ -9,9 +9,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 		
   	        practiceBlock : false, 
 		
-		minRT : 400, //Below this latency
-		maxRT : 10000,
-		
+	
 		finalText : 'This task is now completed. Press space to continue', 
 				
 				
